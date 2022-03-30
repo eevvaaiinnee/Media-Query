@@ -44,7 +44,7 @@
   text-align: center;
   color: #150000;
   font-size: 75px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .recipee {
@@ -79,6 +79,7 @@
     font-size: 12px;
   }
   .titlee {
+    margin-top: 50px;
     font-size: 45px;
   }
   .recipee {
