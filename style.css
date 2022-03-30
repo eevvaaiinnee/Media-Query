@@ -20,6 +20,7 @@
   flex-direction: row;
   justify-content: space-around;
   position: fixed;
+  top: 0;
 }
 
 .menuu a {
@@ -43,6 +44,7 @@
   text-align: center;
   color: #150000;
   font-size: 75px;
+  margin-top: 50px;
 }
 
 .recipee {
@@ -70,11 +72,26 @@
   text-align: center;
 }
 
-@media screen and (max-width: 980px) {
-  .imagee {
-    width: 375px;
+@media screen and (max-width: 500px) {
+  .menuu a {
+    padding: 5px;
+
+    font-size: 12px;
+  }
+  .titlee {
+    font-size: 45px;
   }
   .recipee {
-    margin-left: 75px;
+    margin-left: 0px;
+    background-color: #cab9a7;
+    font-size: 15px;
+    text-align: center;
+  }
+  .imagee {
+    border: 2px solid #7d6d4b;
+    width: 150px;
+  }
+  p {
+    font-size: 12px;
   }
 }
